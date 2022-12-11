@@ -1,0 +1,128 @@
+
+
+/* Navigation bar Menu */
+
+.Devcom-logo{
+    height: 80px;
+    
+    border-radius: 100%;
+}
+
+.navbar{
+    background-color: #0d2040;
+}
+
+.navbar-nav{
+    text-align-last: center;
+}
+
+.devcom-text{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar-nav > li > a {
+    color: white;
+}
+
+.nav-item{
+    padding: 12px ;
+}
+
+.navbar-light .nav-item .nav-link:active{
+    font-weight: bolder;
+    color: white;
+}
+
+.nav-item.active .nav-link,
+.nav-item .nav-link:active,
+.nav-item .nav-link:focus,
+.nav-item:hover .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+/*Display 1 */
+
+.banner{
+    background-image: url('images/flames.jpg');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 250px;
+}
+
+.banner-header{
+    text-align: center;
+    padding: 250px 200px 20px 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+.banner-text{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    color: yellowgreen;
+    
+}
+
+/*About Us*/
+
+.about-us{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about-heading{
+    margin-bottom: 35px;
+    color: rgb(176, 35, 35);
+}
+
+.about-image{
+    max-width: 100%;
+    height: auto;
+}
+
+.about-devcom{
+    margin: 3px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/*Chapter-logos*/
+
+.Chapters{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.chapter-heading{
+    margin-bottom: 35px;
+    color: rgb(176, 35, 35);
+}
+
+.chapter-row{
+    padding: 10px;
+}
+
+@media (max-width: 768px){
+    .chapter-logo{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    padding: 8px;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .chapter-logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 50px;
+        padding: 8px;
+    }
+}
